@@ -38,7 +38,7 @@ document.getElementById('motor_on').addEventListener('click', function(e){
 });
 
 document.getElementById('motor_off').addEventListener('click', function(e){
-    on.callService(ROSLIB.ServiceRequest(), function(result){
+    off.callService(ROSLIB.ServiceRequest(), function(result){
 	if(result.success){
 	    document.getElementById('motor_on').className = 'btn btn-default';
 	    document.getElementById('motor_off').className = 'btn btn-primary';	    
