@@ -16,4 +16,4 @@ ls.subscribe(function(message){
     }
 });
 
-document.getElementById('camstream').data = 'http://' + location.hostname + ':10000/stream?topic=/cv_camera_node/image_raw';
+document.getElementById('camstream').data = 'http://' + location.hostname + ':10000/stream?topic=/cv_camera/image_raw';
