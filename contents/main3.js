@@ -12,7 +12,7 @@ var ls = new ROSLIB.Topic({
 
 ls.subscribe(function(message){
     for( e in message ){
-	document.getElementById(e).innerHTML = message[e]
+	document.getElementById(e).innerHTML = message[e];
     }
 });
 
