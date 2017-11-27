@@ -73,4 +73,6 @@ $('#touchmotion').on('click',function(e){
     $('#vel_rot').html(parseInt(vel_rot));
 });
 
+setInterval(pubMotorValues,100);
+
 document.getElementById('camstream').data = 'http://' + location.hostname + ':10000/stream?topic=/cv_camera_node/image_raw';
