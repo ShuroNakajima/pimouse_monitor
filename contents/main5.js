@@ -18,13 +18,13 @@ ls.subscribe(function(message){
 
 var on = new ROSLIB.Service({
     ros : ros,
-    name : '/motor_on'
+    name : '/motor_on',
     messageType : 'std_srvs/Trigger'
 });
 
 var off = new ROSLIB.Service({
     ros : ros,
-    name : '/motor_off'
+    name : '/motor_off',
     messageType : 'std_srvs/Trigger'
 });
 
