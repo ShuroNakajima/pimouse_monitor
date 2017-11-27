@@ -15,4 +15,3 @@ ls.subscribe(function(message){
 	document.getElementById(e).innerHTML = message[e];
     }
 });
-
